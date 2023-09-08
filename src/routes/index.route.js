@@ -1,11 +1,11 @@
 import { Router } from 'express';
-import { getTask } from '../controllers/task.controller.js'
+import taskRoute from '../routes/task.route.js'
 const router = Router();
 
 router.get('/healthcheck', (req, res) => {
     res.status(200).json({ message: 'Server ok' });
  });
 
- router.get('/', getTask)
+ router.use('/', taskRoute)
 
 export default router;
