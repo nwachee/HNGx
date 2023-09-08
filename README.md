@@ -7,6 +7,7 @@
 - Mongoose
 - Morgan
 - Cors
+- Moment
 
 ## Installation
 - Clone the [repo](https://github.com/nwachee/HNGx.git) 
@@ -17,3 +18,6 @@
 ### Endpoints : 
 - Healthcheck: `/api/v1/healthcheck` 
     [ GET: Server Health Check ]
+
+- Task : `/api/v1/?slack_name=example_name&track=backend`
+    [ GET: Slack Task]

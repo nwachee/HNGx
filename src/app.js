@@ -22,7 +22,7 @@ app.use(
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
 
-app.use('/api/v1', rootRoute)
+app.use('/api', rootRoute)
 
 //creating a port for the server
 const port = process.env.PORT || 5000
