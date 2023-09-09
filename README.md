@@ -19,5 +19,5 @@
 - Healthcheck: `/api/v1/healthcheck` 
     [ GET: Server Health Check ]
 
-- Task : `/api/v1/?slack_name=example_name&track=backend`
+- Task : `/api?slack_name=example_name&track=backend`
     [ GET: Slack Task]
